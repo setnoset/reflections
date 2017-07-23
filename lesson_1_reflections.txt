@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff between two versions of a file showed me the only few differences the file had.
+
+This helped me see the bug that was introduced, since I had less lines to look into.
+
+Otherwise I would need to scan the whole document and lots of time would be wasted.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to the entire history of a file could allow me to spot when new bugs were introduced.
+
+It can also allow me to keep track of changes and why they were introduced.
+
+Then me and others looking at the code, can improve our understanding of what it's supposed to do.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: full control and flexibility over when to commit.
+
+This means you can make one commit per logical change, making commit review easier and more purposeful.
+
+Cons: user has to keep track of when to commit, and may forget.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A version control system like Git allows saving multiple files in one commit because very often changes to different files are logically interconnected.
+
+On the other hand, systems like Google Docs assume each file can be treated independently.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+I can use git log to view information about all commits, including the author, data, id and description of the commit.
+
+I can use git diff to compare two commits to see the differences between them, i.e. the changes made by going from one to the other.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Since previous versions are saved and different versions can be compared, it's ok to make a commit which breaks something.
+
+By comparing the buggy commit with an older commit, I can see which changes introduced the bug, allowing me to fix the bug in the HEAD commit.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to create a tetris game.
