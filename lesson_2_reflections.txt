@@ -8,3 +8,34 @@ I need to do this so that git can keep track of changes I make using commits.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area gives a temporary space to decide which files are to be commited in which state, whilst not being a hinderance to the development process.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Make sure you have one logical change in the staging area before you make the commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when I want to make changes, but I don't want to place them in the main history of the code.
+
+For example, a game spin-off or demo, or I want to add an experimental feature.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure because I can see which commits a reachable from a given branch head.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a new commit, which becomes the head of the currently checked out branch.
+
+We represent it in the diagram the way we do so that we understand that any commits made within those branches is reachable from the merged commit.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+With automatic merging, you don't need to worry about manually adding the changes.
+
+With manual merging, you have more control over the additions and deletions needed for the merge commit.
